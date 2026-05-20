@@ -4,6 +4,9 @@ TCM-RAG 是一个面向中医知识问答的检索增强生成系统。项目将
 
 > 本项目仅用于中医知识检索、学习与问答实验，不构成诊断或处方建议。涉及急症、特殊人群、用药剂量或明确诊断时，应以线下正规医疗机构评估为准。
 
+
+<img width="1434" height="1044" alt="image" src="https://github.com/user-attachments/assets/157c525e-99f5-409a-a7c8-110961cb4b0c" />
+
 ## 功能特性
 
 - 支持 PDF、TXT、Markdown、JSON 知识源解析
