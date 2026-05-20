@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TCM-RAG Agent Console</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">TCM-RAG Agent</div>
+        <h1>中医问答智能体</h1>
+      </div>
+      <div class="actions">
+        <button id="newBtn" class="ghost">新对话</button>
+        <button id="rebuildBtn" class="ghost">重建知识库</button>
+        <button id="evalBtn" class="ghost">RAG 评估</button>
+        <button id="safetyBtn" class="ghost">安全评测</button>
+      </div>
+    </header>
+
+    <section class="layout">
+      <section class="chat-panel">
+        <div id="messages" class="messages">
+          <div class="empty-state">
+            <div class="mark">RAG</div>
+            <h2>输入一个中医知识或辨证问题</h2>
+            <p>系统会展示回答、置信度、检索轮次、安全路由和引用来源。</p>
+          </div>
+        </div>
+
+        <form id="chatForm" class="composer">
+          <textarea id="messageInput" rows="1" placeholder="例如：桂枝汤的组成和主治是什么？"></textarea>
+          <button id="sendBtn" type="submit">发送</button>
+        </form>
+      </section>
+
+      <aside class="inspector">
+        <section class="panel">
+          <div class="panel-title">运行状态</div>
+          <div id="status" class="status-dot">正在连接...</div>
+        </section>
+
+        <section class="panel metrics">
+          <div class="panel-title">当前回答指标</div>
+          <div class="metric"><span>置信度</span><strong id="confidence">-</strong></div>
+          <div class="metric"><span>安全路由</span><strong id="safetyRoute">-</strong></div>
+          <div class="metric"><span>检索轮次</span><strong id="iterations">-</strong></div>
+          <div class="metric"><span>证据数</span><strong id="evidenceCount">-</strong></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">引用来源</div>
+          <div id="citations" class="citations muted">暂无引用</div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">评估结果</div>
+          <pre id="evalOutput" class="eval-output">尚未运行评估</pre>
+        </section>
+      </aside>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

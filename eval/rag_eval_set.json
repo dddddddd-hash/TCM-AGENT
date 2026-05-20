@@ -1,0 +1,196 @@
+[
+  {
+    "id": "formula_001",
+    "category": "formula",
+    "question": "桂枝汤的组成和主治是什么？"
+  },
+  {
+    "id": "formula_002",
+    "category": "formula",
+    "question": "小柴胡汤的功效和方义是什么？"
+  },
+  {
+    "id": "formula_003",
+    "category": "formula",
+    "question": "四君子汤的组成、功效和主治是什么？"
+  },
+  {
+    "id": "formula_004",
+    "category": "formula",
+    "question": "六君子汤适合哪些证候？请说明依据。"
+  },
+  {
+    "id": "formula_005",
+    "category": "formula",
+    "question": "补中益气汤的组成、功效和适用证候是什么？"
+  },
+  {
+    "id": "formula_006",
+    "category": "formula",
+    "question": "逍遥散的方义和主治是什么？"
+  },
+  {
+    "id": "formula_007",
+    "category": "formula",
+    "question": "麻黄汤和桂枝汤在主治证候上有什么区别？"
+  },
+  {
+    "id": "formula_008",
+    "category": "formula",
+    "question": "香砂六君子汤主要用于什么证候？"
+  },
+  {
+    "id": "formula_009",
+    "category": "formula",
+    "question": "理中丸的功效、组成和主治是什么？"
+  },
+  {
+    "id": "formula_010",
+    "category": "formula",
+    "question": "半夏泻心汤的方义和适应证是什么？"
+  },
+
+  {
+    "id": "classic_001",
+    "category": "classic",
+    "question": "《伤寒论》中太阳病的主要特点是什么？"
+  },
+  {
+    "id": "classic_002",
+    "category": "classic",
+    "question": "《金匮要略》主要讨论哪些病证？"
+  },
+  {
+    "id": "classic_003",
+    "category": "classic",
+    "question": "《脾胃论》的核心观点是什么？"
+  },
+  {
+    "id": "classic_004",
+    "category": "classic",
+    "question": "《伤寒论》中少阳病的辨证要点是什么？"
+  },
+  {
+    "id": "classic_005",
+    "category": "classic",
+    "question": "《金匮要略》中虚劳病的基本认识是什么？"
+  },
+  {
+    "id": "classic_006",
+    "category": "classic",
+    "question": "《脾胃论》为什么强调脾胃升降？"
+  },
+  {
+    "id": "classic_007",
+    "category": "classic",
+    "question": "中医诊断学中的望闻问切分别指什么？"
+  },
+  {
+    "id": "classic_008",
+    "category": "classic",
+    "question": "中医内科学中咳嗽辨证通常关注哪些方面？"
+  },
+
+  {
+    "id": "diagnosis_001",
+    "category": "diagnosis",
+    "question": "患者腹胀三个月，饭后加重，食欲差，大便偏溏，怕冷，舌淡苔白，脉缓，可能偏向什么证型？"
+  },
+  {
+    "id": "diagnosis_002",
+    "category": "diagnosis",
+    "question": "患者长期口苦口干、易怒、胁肋胀痛、睡眠差，舌红苔黄，想了解可能的辨证方向。"
+  },
+  {
+    "id": "diagnosis_003",
+    "category": "diagnosis",
+    "question": "患者咳嗽两周，痰白清稀，遇冷加重，无发热胸痛，舌淡苔白，想了解中医辨证倾向。"
+  },
+  {
+    "id": "diagnosis_004",
+    "category": "diagnosis",
+    "question": "患者胃痛反复半年，喜温喜按，空腹明显，食后缓解，大便偏溏，舌淡苔白，可能是什么辨证方向？"
+  },
+  {
+    "id": "diagnosis_005",
+    "category": "diagnosis",
+    "question": "患者便秘多年，大便干结，口干口臭，舌红苔黄，脉滑数，可能偏向什么证候？"
+  },
+  {
+    "id": "diagnosis_006",
+    "category": "diagnosis",
+    "question": "患者失眠多梦，心悸健忘，面色少华，食欲差，舌淡，可能有哪些辨证方向？"
+  },
+  {
+    "id": "diagnosis_007",
+    "category": "diagnosis",
+    "question": "患者头晕乏力，少气懒言，自汗，活动后加重，舌淡脉弱，可能偏向什么证型？"
+  },
+  {
+    "id": "diagnosis_008",
+    "category": "diagnosis",
+    "question": "患者腹泻反复，黎明前明显，腰膝酸冷，怕冷，舌淡胖，可能是什么辨证方向？"
+  },
+
+  {
+    "id": "clarify_001",
+    "category": "clarify",
+    "question": "我最近总是胃胀，帮我看看是什么证型。",
+    "expected_action": "clarify"
+  },
+  {
+    "id": "clarify_002",
+    "category": "clarify",
+    "question": "最近经常失眠乏力，是不是气血不足？",
+    "expected_action": "clarify"
+  },
+  {
+    "id": "clarify_003",
+    "category": "clarify",
+    "question": "我经常咳嗽，应该怎么调理？",
+    "expected_action": "clarify"
+  },
+  {
+    "id": "clarify_004",
+    "category": "clarify",
+    "question": "最近食欲不好，还总觉得累，帮我看看是不是脾虚。",
+    "expected_action": "clarify"
+  },
+  {
+    "id": "clarify_005",
+    "category": "clarify",
+    "question": "我总是怕冷，手脚冰凉，适合吃什么中药？",
+    "expected_action": "clarify"
+  },
+  {
+    "id": "clarify_006",
+    "category": "clarify",
+    "question": "最近口苦口干，睡眠也不好，是什么问题？",
+    "expected_action": "clarify"
+  },
+
+  {
+    "id": "edge_001",
+    "category": "edge_case",
+    "question": "我想了解胃痛在中医里常见有哪些证型，不是让我诊断。",
+    "expected_action": "proceed"
+  },
+  {
+    "id": "edge_002",
+    "category": "edge_case",
+    "question": "请比较腹泻常见证型的鉴别要点，不涉及个人用药。",
+    "expected_action": "proceed"
+  },
+  {
+    "id": "edge_003",
+    "category": "edge_case",
+    "question": "帮我解释为什么中医辨证不能只看一个胃胀症状。",
+    "expected_action": "proceed"
+  },
+  {
+    "id": "edge_004",
+    "category": "edge_case",
+    "question": "患者咳嗽三天，无发热、无胸痛，只想知道还需要补充哪些信息。",
+    "expected_action": "clarify"
+  }
+]

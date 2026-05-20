@@ -1,0 +1,16 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+web/*.log
+eval/*_report.json
+
+data/memory_store/
+data/processed/
+

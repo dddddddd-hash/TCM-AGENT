@@ -1,0 +1,42 @@
+# ── 核心框架 ──────────────────────────────────────────────
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+langchain-openai>=0.1.7
+langgraph>=0.1.0                   # CoT+ReAct 状态图驱动 Agent
+
+# ── 向量检索（FAISS-HNSW）────────────────────────────────
+faiss-cpu>=1.8.0                   # CPU 版；GPU 环境替换为 faiss-gpu
+# faiss-gpu>=1.7.4                 # GPU 版（按需启用）
+
+# ── Embedding & Rerank（BGE 系列）────────────────────────
+FlagEmbedding>=1.2.9               # BGE Embedding + BGE Reranker
+sentence-transformers>=2.7.0       # 通用 Sentence Transformer
+
+# ── NLP 工具（NER / NLI）────────────────────────────────
+transformers>=4.41.0
+torch>=2.2.0
+# 中医 NER 推荐使用 CMeEE / CBLUE 微调模型（本地加载）
+
+# ── 文档解析 ─────────────────────────────────────────────
+PyMuPDF>=1.24.0                    # PDF 解析（fitz）
+python-docx>=1.1.0
+markdown>=3.6
+unstructured>=0.14.0               # 多格式统一解析兜底
+
+# ── BM25 关键词检索（混合召回）────────────────────────────
+rank-bm25>=0.2.2
+
+# ── 评估（RAGAS）─────────────────────────────────────────
+ragas>=0.1.9
+datasets>=2.19.0
+
+# ── 工具链 ───────────────────────────────────────────────
+openai>=1.30.0                     # LLM 调用（可替换为本地模型）
+tiktoken>=0.7.0                    # Token 计数
+numpy>=1.26.0
+pydantic>=2.7.0
+pydantic-settings>=2.2.1
+python-dotenv>=1.0.0
+loguru>=0.7.2
+tqdm>=4.66.0
